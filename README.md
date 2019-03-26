@@ -21,9 +21,10 @@
    - [API documentation](#api-documentation)
 4. [Dataset Format](#dataset-format)
 5. [Support](#support)
-6. [FAQ](#frequently-asked-questions)
-7. [Donations](#donations)
-8. [Numerical Experiments](#numerical-experiments) 
+6. [Contributing](#contributing) 
+7. [FAQ](#frequently-asked-questions)
+8. [Donations](#donations)
+9. [Numerical Experiments](#numerical-experiments) 
 
 ## Intro
 LightTwinSVM is a simple and fast implementation of standard Twin Support Vector Machine. It is licensed under the terms of GNU GPL v3. Anyone who is interested in machine learning and classification can use this program for their work/projects.
@@ -165,6 +166,9 @@ To report a problem or bug, please provide the following information:<br />
 2. Output of the program.<br />
 3. Explain how to reproduce the problem if possible.
 
+## Contributing
+Thanks for considering contribution to the LightTwinSVM project. Contributions are highly appreciated and welcomed. For guidance on how to contribute to the LightTwinSVM project, please see the [contributing guideline](https://github.com/mir-am/LightTwinSVM/blob/master/CONTRIBUTING.md).
+
 ## Frequently Asked Questions
 - What is the main idea of TwinSVM classifier? <br />
 TwinSVM does classification by using two non-parallel hyperplanes as opposed to a single hyperplane in the standard SVM. In TwinSVM, each hyperplane is as close as possible to samples of its own class and far away from samples of other class. To know more about TwinSVM and its optimization problems, you can read [this blog post](https://mirblog.me/index.php/2018/12/07/a-brief-intro-to-twin-support-vector-machine-classifier/ "A brief Introduction to TwinSVM classifier").
@@ -193,5 +197,6 @@ In order to indicate the effectiveness of the LightTwinSVM in terms of accuracy,
 
 From the above table, it can be found that LightTwinSVM is more efficient in terms of accuracy. Therefore, it outperforms Sklearn's SVM on most datasets. All in all, if you have used SVM for your task/project, the LightTwinSVM program may give you a better predication accuracy for your classification task. More information on this experiment can be found in [this blog post](https://mirblog.me/index.php/2018/12/28/a-accuracy-comparison-between-scikit-learns-svm-and-lighttwinsvm-program/).
 
-## Acknowledgements
-Thanks to [idejie](https://github.com/idejie) for test and support on the MacOS. (Dec 8, 2018)
+## Acknowledgments
+- For test and experiment with the LightTwinSVM program, Wine and Pima-Indian datasets are included in the project from [UCI](https://archive.ics.uci.edu/ml/index.php) machine learning repository. 
+- Thanks to [idejie](https://github.com/idejie) for test and support on the MacOS. (Dec 8, 2018)
